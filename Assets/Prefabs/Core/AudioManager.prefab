@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8083952496619513525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8083952496619513523}
+  - component: {fileID: 8083952496619513522}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8083952496619513523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083952496619513525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8083952496619513522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083952496619513525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d17f9a1018993394cab404eb4025b326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: ButtonClick
+    Clip: {fileID: 8300000, guid: 88b1ab178f14c3a4688555acfd05ca1a, type: 3}
+    Loop: 0
+    Volume: 0.3
+    Source: {fileID: 0}
+  - Name: BowAttack
+    Clip: {fileID: 8300000, guid: ac17960328bcecf488102dd306633b49, type: 3}
+    Loop: 0
+    Volume: 0.8
+    Source: {fileID: 0}
+  - Name: Hit
+    Clip: {fileID: 8300000, guid: c867bbf2a1d270548983a0aff92adbda, type: 3}
+    Loop: 0
+    Volume: 0.8
+    Source: {fileID: 0}
+  - Name: Death
+    Clip: {fileID: 8300000, guid: 9bce58e7871e1f340a9dd77ade647eb4, type: 3}
+    Loop: 0
+    Volume: 0.8
+    Source: {fileID: 0}
+  - Name: CoinThrow
+    Clip: {fileID: 8300000, guid: cfc9b8273c228534096c544ff53c5a63, type: 3}
+    Loop: 0
+    Volume: 0.8
+    Source: {fileID: 0}
+  - Name: GadgetRing
+    Clip: {fileID: 8300000, guid: 5aebf5f466bcbb84db7fb7449c6d754b, type: 3}
+    Loop: 0
+    Volume: 0.8
+    Source: {fileID: 0}
+  backgroundMusic:
+    Name: Theme
+    Clip: {fileID: 8300000, guid: 4303b6024b8937f4898eeac3c75e897f, type: 3}
+    Loop: 1
+    Volume: 0.6
+    Source: {fileID: 0}
